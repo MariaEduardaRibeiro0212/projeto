@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+}
+
+@font-face {
+    font-family: Maria;
+    src: url(fonte/Fuggles-Regular.ttf);
+}
+
+.navbar{
+    background-color: #DBC4F0;
+}
+.navbar-brand{
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: Maria;
+}
+
+.img-card{
+    width: 100%;
+    height: 70%;
+}
+
+#section-cards{
+    width: 100%;
+    background-color: #ffcacc;
+
+}
+.row{
+    width: 100%;
+    justify-content: space-evenly; /*space-evenly: os itens são distribuídos igualmente no espaço disponível.*/
+    align-items: center;
+    background-color: #ffcacc;
+}
+.minhaclasse{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+    background-color: #ffcacc;
+    border: 1px solid rgb(192, 145, 161);
+    box-shadow: 0 4px 8px 0 rgba(226, 115, 152, 0.486), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+.card{
+    height: 350px;
+    background-color: #ffcacc; 
+    
+}
+
+.img-card{
+    width: 100%;
+    height: 70%;
+}
+
+.text-card{
+    background-color: #f7b8ba;
+    width: 100%;
+    height: 30%;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+#secao3{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #D4E2D4;
+
+}
+#text-secao3{
+    margin: auto;
+    width: 25%;
+    height: 80%;
+   
+}
+
+#img-secao3{
+    width: 40%;
+    height: 80%;
+    background-image: url(/ipe-roxo.png);
+    background-size: cover;
+    background-repeat: no-repeat; /*Não repetir a imagem */
+
+}
+#title{
+    margin-top: 80px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+hr{
+    border: 2px solid white;
+    margin-right: 50px;
+}
+
+#p-secao3{
+    margin: auto;
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FAF3F0;
+}
+
+@media screen and (max-width:576px) {
+    #title{
+        text-align: center;
+        margin-top: 3px;
+    }
+
+    #text-secao3 {
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    height: 25%;
+    }
+
+    #secao3{
+        width: 100%;
+        height: 55vh;
+    }
+
+    footer{
+        width: 100%;
+        height: 15vh;
+        display: flex;
+        margin-bottom: 10px;
+}
+}
+
+@media screen and (max-width:720px) {
+    #title{
+        text-align: center;
+        margin-top: 0;
+    }
+
+    #text-secao3 {
+    text-align: center;
+    margin: auto;
+    width: 40%;
+    height: 70%;
+    }
+
+    #secao3{
+        width: 100%;
+        height: 85vh;
+    }
+
+    footer{
+        width: 100%;
+        height: 15vh;
+        margin-bottom: 10px;
+    }
+}
